@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="13466" started-at="2022-06-27T18:42:59 EET" finished-at="2022-06-27T18:43:13 EET">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="13466" started-at="2022-06-27T18:42:59 EET" finished-at="2022-06-27T18:43:13 EET">
+      <class name="com.kamar.testing.LoginAndHomePages">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kamar.testing.LoginAndHomePages@2833cc44]" name="setUp" is-config="true" duration-ms="6028" started-at="2022-06-27T18:42:59 EET" finished-at="2022-06-27T18:43:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testFailedLogin()[pri:0, instance:com.kamar.testing.LoginAndHomePages@2833cc44]" name="testFailedLogin" duration-ms="425" started-at="2022-06-27T18:43:05 EET" finished-at="2022-06-27T18:43:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailedLogin -->
+        <test-method status="PASS" signature="testAdminLogin()[pri:1, instance:com.kamar.testing.LoginAndHomePages@2833cc44]" name="testAdminLogin" duration-ms="358" started-at="2022-06-27T18:43:06 EET" finished-at="2022-06-27T18:43:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method status="PASS" signature="testLogOut()[pri:2, instance:com.kamar.testing.LoginAndHomePages@2833cc44]" name="testLogOut" duration-ms="80" started-at="2022-06-27T18:43:06 EET" depends-on-methods="com.kamar.testing.LoginAndHomePages.testAdminLogin" finished-at="2022-06-27T18:43:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kamar.testing.LoginAndHomePages@2833cc44]" name="tearDown" is-config="true" duration-ms="642" started-at="2022-06-27T18:43:06 EET" finished-at="2022-06-27T18:43:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kamar.testing.LoginAndHomePages -->
+      <class name="com.kamar.testing.RegisterPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kamar.testing.RegisterPage@e320068]" name="setUp" is-config="true" duration-ms="3692" started-at="2022-06-27T18:43:07 EET" finished-at="2022-06-27T18:43:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSuccessfulRegister()[pri:0, instance:com.kamar.testing.RegisterPage@e320068]" name="testSuccessfulRegister" duration-ms="1520" started-at="2022-06-27T18:43:11 EET" finished-at="2022-06-27T18:43:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kamar.testing.RegisterPage@e320068]" name="tearDown" is-config="true" duration-ms="687" started-at="2022-06-27T18:43:12 EET" finished-at="2022-06-27T18:43:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kamar.testing.RegisterPage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
